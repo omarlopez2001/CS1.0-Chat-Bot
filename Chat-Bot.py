@@ -96,3 +96,10 @@ else:
 
 print("Welcome to NBA Basketball Bot!")
 print("Please enter your favorite NBA basketball team")
+
+user_response = ""
+
+while True:
+    user_response = input("Which is your favorite basketball team? ")
+    if user_response == "done":
+        break
