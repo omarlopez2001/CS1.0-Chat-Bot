@@ -93,3 +93,6 @@ elif user_response == ["wizards", "Wizards", "Washington Wizards", "washington w
     return choice(bot_response_wizards)
 else:
     return "I do not recognize that team :("
+
+print("Welcome to NBA Basketball Bot!")
+print("Please enter your favorite NBA basketball team")
